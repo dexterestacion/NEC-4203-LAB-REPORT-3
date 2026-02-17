@@ -10,7 +10,7 @@
 A Frequency modulation is a technique that transmits information into a varying frequency according to its amplitude and its signal. one of the advantage of using Frequency modulation is the ability to transmit message without picking up much any electrical noise to the medium, which is one of the disadvantage of AM and oher types of Amplitude modulation such as DSBSC, SSBSC because it is a varying amplitude signal, which is more susceptive from picking up electrical noise to medium, Frequency modulation also provides high quality sound when transmitting the information. However, the disadvantage of using Frequency modulation is that its transmission is complex compared to AM, and it's also expensive to operate. An FM detector usually needs an antenna, specifically a dipole antenna, to receive the transmitted signal while AM doesn't need to; this is because FM has a high-frequency component compared to AM, which creates a shorter wavelength, making the  signal propagation performance poor.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%209/FM%20Demonstration.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%209/FM%20Demonstration.JPG" />
 </div>
 
 ### Block diagram
@@ -18,25 +18,25 @@ A Frequency modulation is a technique that transmits information into a varying 
 based on the block diagram it shows that the message is a 2kHz digital masters signals, connected to the Voltage controlled Oscillator module input to the Emona which as a 10kHz carrier, the first channel of the oscilloscope will be connected directly to the Information signal, while channel 2 will be connected to the output of the VCO, basically the expected output is that the output frequency from the VCO should be directly proportional to the information signal voltage.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%209/FM%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%209/FM%20BD.JPG" />
 </div>
 
 ### Setup
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%209/FM%20setup.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%209/FM%20setup.JPG" />
 </div>
 
 ### Output
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%209/FM%20Output%20masters.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%209/FM%20Output%20masters.jpg" />
 </div>
 
 The output of the signal shows that the carrier frequency increases when the message is at a higher voltage, and decreases when the message is low, which means its frequency is directly proportional to the information signal's voltage(it's basically how a VCO works) to create a Frequency modulation signal that is compatible with the medium.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%209/FM%20Output%20microphone.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%209/FM%20Output%20microphone.jpg" />
 </div>
 
 Additional photo: Using a transducer such as a microphone that shows clearly the Frequency modulation.
@@ -56,13 +56,13 @@ Additional photo: Using a transducer such as a microphone that shows clearly the
 A frequency demodulator is a type of detector used to demodulate an FM signal from the medium. The demodulation process of  an FM signal is more complex compared to AM detectors since it uses a zero-crossing detector(ZCD) and a voltage comparator circuit to demodulate and recover the information.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2010/FM%20Demodulation%20demonstration.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2010/FM%20Demodulation%20demonstration.JPG" />
 </div>
 
 ### Block diagram
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2010/FM%20Demodulator%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2010/FM%20Demodulator%20BD.JPG" />
 </div>
 
 
@@ -72,11 +72,11 @@ Based on the block diagram, our information is a variable DC signal connected to
 > ⓘ NOTE: A comparator is an electronic device used to compare 2 input voltage from the Inverting input(REF) and non-inverting input(IN), if non-inverting input voltage is greater than inverting input, the comparator switch to positive saturation voltage, if the voltage in inverting input is greater than the inverting input, then the output will switch to negative saturation or GND based on the applied connection to the negative supply of the comparator, but in our case the comparator of the telecoms trainer is connected in GND(0V). This basically converts analog signal into digital signal, hence, it is used for Analog to Digital converters.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2010/Comparator%20image.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2010/Comparator%20image.JPG" />
 </div>
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2010/Comparator%20output.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2010/Comparator%20output.JPG" />
 </div>
 
 > A zero voltage detector is a type of electronic circuit built in a voltage comparator, it is used to detect an AC signal whenever it passes/crosses through 0V, producing a short pulse. The EMONA netTIMS has a Zero-crossing detector built in to the trainer that can vary the width of the pulse and delay.
@@ -84,13 +84,13 @@ Based on the block diagram, our information is a variable DC signal connected to
 ### Setup(Emona netTIMS online setup)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2010/FM%20Demodulator%20setup.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2010/FM%20Demodulator%20setup.JPG" />
 </div>
 
 ### Output
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2010/FM%20Demodulator%20Output.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2010/FM%20Demodulator%20Output.JPG" />
 </div>
 
 
@@ -109,7 +109,7 @@ Since FM demodulation relies on time intervals of the message, the demodulated o
 ### Theoretical setup(Using EMONA net*TIMS Telecoms trainer online)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2010/Observations/MIXED%20SETUP.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2010/Observations/MIXED%20SETUP.JPG" />
 </div>
 
 ### Output
@@ -117,19 +117,19 @@ Since FM demodulation relies on time intervals of the message, the demodulated o
 - Sine wave
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20sine%20wave%20information.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20sine%20wave%20information.JPG" />
 </div>
 
 - Square wave
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20square%20wave%20information.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20square%20wave%20information.JPG" />
 </div>
 
 - Triangular wave
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20triangular%20wave%20information.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2010/Additional%20observation%20output/FM%20Demodulation%20with%20triangular%20wave%20information.JPG" />
 </div>
 
 </details>
@@ -147,13 +147,13 @@ A digital transmission is a process of conveying information into  a discrete-ti
 A natural sampling is a form of modulation technique that involves multiplying the analog signal to the pulse train(rectangular pulses), this will allow to follow the orignal waveform's shape during pulse duration, if the pulse is on, input signal passes through, if the pulse if off, no signal will output. A sample-and-hold(S&H) is an electronic device that takes the message's amplitude signal in each point and holds the value constant for a duration.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2011/Sampling%20demo.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2011/Sampling%20demo.JPG" />
 </div>
 
 ### Block diagram: Natural sampling
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2011/Natural%20sampling%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/Natural%20sampling%20BD.JPG" />
 </div>
 
 baed on the diagram, it shows that the 2kHz signal will be our information signal, connected to the input of the dual analog switch, the 8kHz digital signal will serve as the switching component or the sampling frequency that will let the input signal pass to the output whenever the control signal is in positive peak and blocks it when the control signal is in 0V, generating a Pulse amplitude modulation(Natural sampling).
@@ -161,17 +161,17 @@ baed on the diagram, it shows that the 2kHz signal will be our information signa
 ### Setup: Natural sampling
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2011/Natural%20sampling%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Natural%20sampling%20setup.jpg" />
 </div>
 
 ### Output
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Natural%20sampling%20output.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20sampling%20output.jpg" />
 </div>
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Natural%20samping%20and%20message%20comparison.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Natural%20samping%20and%20message%20comparison.jpg" />
 </div>
 
 as expected, the signal will get pass through when the sampling frequency is at positive peak voltage, and blocks it when it reach the negative peak voltage, forming a Natural sampling.
@@ -179,7 +179,7 @@ as expected, the signal will get pass through when the sampling frequency is at 
 ### Block diagram: Sample and hold/w tunable LPF(message reconstruction)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2011/S%26H%20%20and%20reconstruction%20BD.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2011/S%26H%20%20and%20reconstruction%20BD.jpg" />
 </div>
 
 Based on the block diagram, the dual analog switch circuit will be replaced with Sample-and-hold circuit, the princple of S&H sampling is that it holds the first constant value until the next sampling frequency 
@@ -187,7 +187,7 @@ Based on the block diagram, the dual analog switch circuit will be replaced with
 ### Setup: Sample and hold sampling/w tunable LPF(message reconstruction)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2011/Sample%20and%20hold%20%20original%20message%20reconstruction%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Sample%20and%20hold%20%20original%20message%20reconstruction%20setup.jpg" />
 </div>
 
 ### Output: Sample and hold sampling/w tunable LPF(message reconstruction)
@@ -195,19 +195,19 @@ Based on the block diagram, the dual analog switch circuit will be replaced with
 - S&H Output
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Sample%20and%20hold%20output.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Sample%20and%20hold%20output.jpg" />
 </div>
 
 - Original message and S&H comparison
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/S%26H%20and%20message%20comparison.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20and%20message%20comparison.jpg" />
 </div>
 
 - Reconstructed Message to Original message comaparison
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/S%26H%20Reconstructed%20message%20comparison.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/S%26H%20Reconstructed%20message%20comparison.jpg" />
 </div>
 
 ### Observation
@@ -217,7 +217,7 @@ if the sampling frequency increased, it improved the quality of the reconstructi
 ### Setup: Natural sampling using VCO
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2011/Observation%20setup/Natural%20sampling%20setup.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/Natural%20sampling%20setup.JPG" />
 </div>
 
 ### Output: Natural sampling using VCO
@@ -225,19 +225,19 @@ if the sampling frequency increased, it improved the quality of the reconstructi
 - if VCO frequency is low
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20low%20frequency%20sampling.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20low%20frequency%20sampling.JPG" />
 </div>
 
 - if VCO frequency is high
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20high%20frequency%20sampling.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/Natural%20sampling%20under%20high%20frequency%20sampling.JPG" />
 </div>
 
 ### Setup: S&H Sampling using VCO
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2011/Observation%20setup/S%26H%20Sampling%20VCO%20observation%20setup.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2011/Observation%20setup/S%26H%20Sampling%20VCO%20observation%20setup.JPG" />
 </div>
 
 ### Output: S&H Sampling using VCO
@@ -245,13 +245,13 @@ if the sampling frequency increased, it improved the quality of the reconstructi
 - if VCO frequency is low
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20low%20frequency%20sampling.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20low%20frequency%20sampling.JPG" />
 </div>
 
 - if VCO frequency is high
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20high%20frequency%20sampling.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2011/Observation%20output/S%26H%20under%20high%20frequency%20sampling.JPG" />
 </div>
 
 </details>
@@ -269,15 +269,15 @@ if the sampling frequency increased, it improved the quality of the reconstructi
 A pulse code modulation(PCM) is a type of digital modulation technique that converts analog signal into binary sequence of 1s and 0s. PCM uses sampling, quantizing, and encoding in order for analog signal to be converted into binary system. This process was developed in 1937, primarily used for telephony, space communications, and digital audio processing during the 1960s and 70s.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2012/PCM%20demo.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2012/PCM%20demo.JPG" />
 </div>
 
 <div align="center">
-<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2012/PAM%20Steps.JPG" />
+<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2012/PAM%20Steps.JPG" />
 </div>
 
 <div align="center">
-<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2013/block%20of%20encoding%20PCM.jpg" />
+<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2013/block%20of%20encoding%20PCM.jpg" />
 </div>
 
 PCM contains 2 output pins:
@@ -285,13 +285,13 @@ PCM contains 2 output pins:
 - PCM data - this is the equivalent analog signal convered into digital data that has been decoded, in our setup, the EMONA telecoms trainer only has a 7 bit encoder.
 
 <div align="center">
-<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2012/PCM%20Data%20actial%20representation.jpg" />
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2012/PCM%20Data%20actial%20representation.jpg" />
 </div>
   
 ### Block diagram
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%200V%20Input.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%200V%20Input.JPG" />
 </div>
 
 our input signal will be grounded and our clock signal would be 8kHz signal. the PCM encoder for EMONA combines the process of Sampling, Quantization, and encoding into a single block, making it easy to implement rather than using a separate dual analog switch for sampling and quantization.
@@ -299,7 +299,7 @@ our input signal will be grounded and our clock signal would be 8kHz signal. the
 ### Setup
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2012/FS%20and%20Digital%20signal%20comparison.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/FS%20and%20Digital%20signal%20comparison.jpg" />
 </div>
 
 Observing the output, the frame synchronization (FS) signal appeared as a periodic pulse that marked the beginning of each data frame. The 8 kHz clock signal was visible and maintained a constant frequency, which means it has a stable sampling operation
@@ -309,31 +309,31 @@ Observing the output, the frame synchronization (FS) signal appeared as a period
 - CH1(Frame synchronization) and CH2(8kHz digital clock signal) comparison
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2012/Clock%20signal%20and%20Frame%20synchonization%20signal.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Clock%20signal%20and%20Frame%20synchonization%20signal.jpg" />
 </div>
 
 - CH1(Frame synchronization) and CH2(PCM DATA) comparison
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2012/Frame%20synchronization%20and%20PCM%20output%20data.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/Frame%20synchronization%20and%20PCM%20output%20data.jpg" />
 </div>
 
 - Reading the equivalent binary data of the PCM output
 
 <div align="center">
-<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2012/PCM%20Data%20reading.JPG" />
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2012/PCM%20Data%20reading.JPG" />
 </div>
 
 ### Block diagram
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%20Variable%20DC%20Input.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2012/PCM%20Encoder%20with%20Variable%20DC%20Input.JPG" />
 </div>
 
 ### Setup
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2012/PCM%20Setup%20DCV.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2012/PCM%20Setup%20DCV.jpg" />
 </div>
 
 Modifying the setup, this time, instead of grounded input, we use the variable dc voltage and observe the output.
@@ -341,7 +341,6 @@ Modifying the setup, this time, instead of grounded input, we use the variable d
 ### Output
 
 https://github.com/user-attachments/assets/9bb37632-e221-4fab-a63e-4295a544365a
-
 
 The binary code pattern shifted based on the amplitude of the applied DC voltage. Higher DC voltages produces more binary codes corresponding to higher quantization levels, while lower DC voltages produced less binary codes.
 
@@ -372,13 +371,13 @@ Pulse Code Modulation (PCM) decoder is the counterpart of the PCM encoder used t
 - Before filtering
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20BD.JPG" />
 </div>
 
 - After filtering
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20before%20filtering%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2013/PCM%20Encoder%20and%20Decoder%20before%20filtering%20BD.JPG" />
 </div>
 
 
@@ -387,13 +386,13 @@ Pulse Code Modulation (PCM) decoder is the counterpart of the PCM encoder used t
 - Before filtering
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2013/PCM%20Decoder%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2013/PCM%20Decoder%20setup.jpg" />
 </div>
 
 - After filtering
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2013/PCM%20decoder%20setup%20with%20tunable%20LPF.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2013/PCM%20decoder%20setup%20with%20tunable%20LPF.jpg" />
 </div>
 
 ### Output
@@ -401,13 +400,13 @@ Pulse Code Modulation (PCM) decoder is the counterpart of the PCM encoder used t
 - Before filtering
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output.jpg" />
 </div>
 
 - After filtering
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output%20after%20filtering.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2013/PCM%20decoder%20output%20after%20filtering.jpg" />
 </div>
 
 ### Additional Observation
@@ -415,13 +414,13 @@ Pulse Code Modulation (PCM) decoder is the counterpart of the PCM encoder used t
 Looking at the signal before the output uses LPF, the decoded output appears to be a steps, similar to a sample-to-hold sampling. This is because PCM decoders uses Digital to analog converter, which generally converts the PCM data to an equivalent analog signal based on the information the PCM data contains. Looking back at the encoding side, the Emona Telecoms trainer combines the 2 stages of generating a PAM before the input signal to be encoded: Sampling and Quantization. The signal must be converted into a discrete signal(equivalent to steps of analog signal) before it is encoded into a Pulse code.
 
 <div align="center">
-<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2012/PAM%20Steps.JPG" />
+<img width="800" height="800" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2012/PAM%20Steps.JPG" />
 </div>
 
 when decoding the PCM data, it shows the exact output we should expect, which is the quantized data. using tunable LPF will smooth out the decoded PCM data and turn it into its orignal waveform.
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Additional%20data/Experiment%2013/Block%20of%20decoding%20PCM.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2013/Block%20of%20decoding%20PCM.jpg" />
 </div>
 
 </details>
@@ -447,7 +446,7 @@ A medium acts as a filter, it lets a range of singal frequency pass unaffected w
 ### Block diagram - PCM decoding with bandwidth limiter
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2014/Bandwidth%20limiting%20on%20PCM%20decoding.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandwidth%20limiting%20on%20PCM%20decoding.jpg" />
 </div>
 
 
@@ -456,13 +455,13 @@ A medium acts as a filter, it lets a range of singal frequency pass unaffected w
 - Without LPF(Bandwidth limiter)
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
 </div>
 
 - With LPF(Bandwidth limiter)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20and%20%20signal%20restoration%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20and%20%20signal%20restoration%20setup.jpg" />
 </div>
 
 Based on the block diagram, we'll construct a PCM decoder with and without the bandwidth limiter and compare its effects after adding the LPF across the channel. 
@@ -482,38 +481,38 @@ comparing both output, when looking at the signal without the bandwidth limiter,
 ### Block diagram - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2014/Sequence%20generator%20with%20SYNC%20to%20EXT.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Sequence%20generator%20with%20SYNC%20to%20EXT.JPG" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Block%20diagrams/Experiment%2014/Bandiwdth%20limiting%20on%20sequence%20generator.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandiwdth%20limiting%20on%20sequence%20generator.JPG" />
 </div>
 
 
 ### Setup - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Setup/Experiment 14/Digital signal modeling with bandwidth limiter and%20 signal restoration setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment 14/Digital signal modeling with bandwidth limiter and%20 signal restoration setup.jpg" />
 </div>
 
 ### Output - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20with%20bandwidth%20limited%20digital%20signal%20output.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20with%20bandwidth%20limited%20digital%20signal%20output.jpg" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-3202-LAB-REPORT-2/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20recovery%20otuput.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20recovery%20otuput.jpg" />
 </div>
 
 </details>
