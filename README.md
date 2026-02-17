@@ -388,20 +388,37 @@ comparing both output, when looking at the signal without the bandwidth limiter,
 ### Objectives
 - To be familiarize with Amplitude Shift Keying
 - understand the basic principle of Amplitude Shift Keying.
-- Implement Amplitude Shift Keying 
+- Implement Amplitude Shift Keying
+- restore the digital signal into its orignal form
 - observe its output
 
 ### Introduction
 
-understand the basic principle of Amplitude Shift Keying (ASK) as Amplitude Shift Keying (ASK) is a type of digital modulation technique in which the amplitude of a carrier signal is varied according to the digital data, while the frequency and phase remain constant. In simple terms, ASK uses different amplitude levels to represent binary data (1s and 0s).
+A Amplitude Shift Keying (ASK) is a type of digital modulation technique in which the amplitude of a carrier signal is varied according to the digital data, while the frequency and phase remain constant. In simple terms, ASK uses different amplitude levels to represent binary data (1s and 0s).
 
-PICTURE DEMO
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2015/ASK%20demo.JPG" />
+</div>
+
+### Block diagram - ASK Modulator and Demodulator
+
+- Modulator
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Modulator%20BD.JPG" />
+</div>
+
+- Modulator/Demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20BD.JPG" />
+</div>
 
 
-### Block diagram
 
+### Setup -  ASK Modulator and Demodulator
 
-### Output
+### Output -  ASK Modulator and Demodulator
 
 
 
