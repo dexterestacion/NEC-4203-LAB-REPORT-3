@@ -382,6 +382,32 @@ comparing both output, when looking at the signal without the bandwidth limiter,
 
 </details>
 
+<details>
+<summary> Experiment 15 - Pulse Amplitude Modulation(PAM) </summary>
+  
+</details>
+
+<details>
+<summary> Experiment 16 - Frequency Shift Keying(FSK) </summary>
+  
+</details>
+
+<details>
+<summary> Experiment 17 - Binary phase shift keying(BPSK) </summary>
+  
+</details>
+<details>
+<summary> Experiment 18 - Quadrature Phase Shift keying(QPSK) </summary>
+  
+</details>
+<details>
+<summary> Experiment 19 - DSSS Modulation and Demodulation </summary>
+  
+</details>
+<details>
+<summary> Experiment 20 - Understanding in software defined radio </summary>
+  
+</details>
 
 <details>
 <summary>Reference</summary>
@@ -407,6 +433,21 @@ comparing both output, when looking at the signal without the bandwidth limiter,
   - https://www.egr.msu.edu/classes/ece458/radha/ss07Keyur/Lab-Handouts/Lab9PCM.pdf
   - https://ecedunia.blogspot.com/2016/03/pulse-code-modulation.html
   - https://codes.pratikkataria.com/communication-system/
-    
+
+ ### Experiment 14
+ 
+ ### Experiment 15
+ 
+ ### Experiment 16
+ 
+ ### Experiment 17
+ 
+ ### Experiment 18
+ 
+ ### Experiment 19
+ 
+ ### Experiment 20
+ 
+
   
 </details>
