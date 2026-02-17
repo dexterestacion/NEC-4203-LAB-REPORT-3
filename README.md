@@ -383,8 +383,43 @@ comparing both output, when looking at the signal without the bandwidth limiter,
 </details>
 
 <details>
-<summary> Experiment 15 - Pulse Amplitude Modulation(PAM) </summary>
-  
+<summary> Experiment 15 - Amplitude Shift Keying(ASK) </summary>
+
+### Objectives
+- To be familiarize with Amplitude Shift Keying
+- understand the basic principle of Amplitude Shift Keying.
+- Implement Amplitude Shift Keying 
+- observe its output
+
+### Introduction
+
+understand the basic principle of Amplitude Shift Keying (ASK) as Amplitude Shift Keying (ASK) is a type of digital modulation technique in which the amplitude of a carrier signal is varied according to the digital data, while the frequency and phase remain constant. In simple terms, ASK uses different amplitude levels to represent binary data (1s and 0s).
+
+PICTURE DEMO
+
+
+### Block diagram
+
+
+### Output
+
+
+
+### Introduction
+
+
+
+### Introduction
+
+
+
+### Introduction
+
+
+
+### Introduction
+
+
 </details>
 
 <details>
