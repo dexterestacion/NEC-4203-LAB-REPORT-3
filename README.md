@@ -310,7 +310,7 @@ A medium acts as a filter, it lets a range of singal frequency pass unaffected w
 ### Block diagram - PCM decoding with bandwidth limiter
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandwidth%20limiting%20on%20PCM%20decoding.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandwidth%20limiting%20on%20PCM%20decoding.jpg?token=GHSAT0AAAAAADUADAPKGJXRMOALLDHHYRHU2MUMXHA" />
 </div>
 
 
@@ -319,13 +319,13 @@ A medium acts as a filter, it lets a range of singal frequency pass unaffected w
 - Without LPF(Bandwidth limiter)
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/PCM%20Decoding%20without%20bandwidth%20limiter%20setup.jpg?token=GHSAT0AAAAAADUADAPLKENDZQITPAVQ54Y62MUMZPA" />
 </div>
 
 - With LPF(Bandwidth limiter)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20and%20%20signal%20restoration%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/PCM%20Decoding%20with%20bandwidth%20limiter%20setup.jpg?token=GHSAT0AAAAAADUADAPKTEGTP6UYU7ADLAMM2MUMZPA" />
 </div>
 
 Based on the block diagram, we'll construct a PCM decoder with and without the bandwidth limiter and compare its effects after adding the LPF across the channel. 
@@ -345,38 +345,38 @@ comparing both output, when looking at the signal without the bandwidth limiter,
 ### Block diagram - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Sequence%20generator%20with%20SYNC%20to%20EXT.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Sequence%20generator%20with%20SYNC%20to%20EXT.JPG?token=GHSAT0AAAAAADUADAPL7KWYLJAVKEZJUW7C2MUMXLQ" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandiwdth%20limiting%20on%20sequence%20generator.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2014/Bandiwdth%20limiting%20on%20sequence%20generator.JPG?token=GHSAT0AAAAAADUADAPLWLHJBJH54GBNX5GW2MUMXGQ" />
 </div>
 
 
 ### Setup - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20setup.jpg?token=GHSAT0AAAAAADUADAPKSS5BFGEKKB72QWEQ2MUMZOQ" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment 14/Digital signal modeling with bandwidth limiter and%20 signal restoration setup.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2014/Digital%20signal%20modeling%20with%20bandwidth%20limiter%20and%20%20signal%20restoration%20setup.jpg?token=GHSAT0AAAAAADUADAPK7TTBKK5JPI4B7T3W2MUMZOA" />
 </div>
 
 ### Output - Digital modeling with bandwidth limiter
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20with%20bandwidth%20limited%20digital%20signal%20output.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20with%20bandwidth%20limited%20digital%20signal%20output.jpg?token=GHSAT0AAAAAADUADAPKTEW5U6UMAJJJWDUI2MUM47A" />
 </div>
 
 - Signal recovery
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20recovery%20otuput.jpg" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2014/digital%20signal%20modeling%20recovery%20otuput.jpg?token=GHSAT0AAAAAADUADAPLKB3PSWQYW52GDXVG2MUM37A" />
 </div>
 
 </details>
