@@ -400,64 +400,337 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2015/ASK%20demo.JPG" />
 </div>
 
-### Block diagram - ASK Modulator and Demodulator
+### Block diagram
 
-- Modulator
+- ASK Generator
   
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Modulator%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Generator%20BD.JPG" />
 </div>
 
-- Modulator/Demodulator
+- Envelope detector(Demodulator)
 
 <div align="center">
-<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20BD.JPG" />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Envelope%20detector%20BD.JPG" />
+</div>
+
+- Digital data reconstruction
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Digital%20signal%20recovery%20BD.JPG" />
 </div>
 
 
 
-### Setup -  ASK Modulator and Demodulator
+### Setup
 
-### Output -  ASK Modulator and Demodulator
+- Generator
 
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20Generation%20setup.jpg" />
+</div>
+  
+- Envelope detector
 
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20Envelope%20detector%20setup.jpg" />
+</div>
+
+- Digital data reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2015/ASK%20digital%20signal%20recovery%20setup.jpg" />
+</div>
+  
+### Output
+
+- Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20Output.jpg" />
+</div>
+  
+- Envelope detector
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20Output.jpg" />
+</div>
+
+  
+- Digital data reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2015/ASK%20demodulation%20using%20Envelope%20detector%20Output.jpg" />
+</div>
 
 ### Introduction
 
 
 
-### Introduction
-
-
-
-### Introduction
-
-
-
-### Introduction
 
 
 </details>
 
 <details>
 <summary> Experiment 16 - Frequency Shift Keying(FSK) </summary>
+
+### Objectives
+
+### Introduction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2016/FSK%20Demo.JPG" />
+</div>
+
+### Block diagram
+
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Generation%20BD.JPG" />
+</div>
   
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src=" https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Restoration%20BD.JPG " />
+</div>
+
+### Setup
+
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2016/FSK%20Generation%20setup.jpg" />
+</div>
+
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2016/FSK%20restoration%20setup.jpg" />
+</div>
+
+### Output
+
+- FSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src=" https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Output.jpg " />
+</div>
+
+- Digital signal reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Restoration%20output%20comparison.jpg" />
+</div>
+
 </details>
 
 <details>
 <summary> Experiment 17 - Binary phase shift keying(BPSK) </summary>
+
+### Objectives
+
+
+### Introduction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2017/BPSK%20Demo.JPG" />
+</div>
+
+
+### Block diagram
+
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Generation%20BD.JPG" />
+</div>
+
+- BPSK Demodulation
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Demodulation%20BD.JPG" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Digital%20message%20restoration.JPG" />
+</div>
+
+
+
+### Setup
+
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20Setup.jpg" />
+</div>
+	
+  
+- BPSK Demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20demodulation%20setup.jpg" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2017/BPSK%20Digital%20data%20restoration%20setup.jpg" />
+</div>
+
+
+### Output
+
+- BPSK Generator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20Generation%20output.jpg" />
+</div>
+
+- BPSK Demodulator
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20demodulation%20output.jpg" />
+</div>
+
+- Digital message reconstruction
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2017/BPSK%20Digital%20data%20restoration%20output.jpg" />
+</div>
+
   
 </details>
+
 <details>
 <summary> Experiment 18 - Quadrature Phase Shift keying(QPSK) </summary>
+
+### Objectives
+
+### Introduction
+
+
+
+### Block diagram
+
+- PSK Generator
+
   
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+  
+
+### Setup
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+
+### Output
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+
 </details>
+
 <details>
 <summary> Experiment 19 - DSSS Modulation and Demodulation </summary>
+
+### Objectives
+
+### Introduction
+
+
+
+### Block diagram
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+  
+
+### Setup
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+
+### Output
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+
+
   
 </details>
+
 <details>
 <summary> Experiment 20 - Understanding in software defined radio </summary>
+
+### Objectives
+
+### Introduction
+
+
+
+### Block diagram
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+  
+
+### Setup
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
+
+### Output
+
+- PSK Generator
+
+  
+- PSK Demodulator
+
+  
+- Digital signal reconstruction
   
 </details>
 
