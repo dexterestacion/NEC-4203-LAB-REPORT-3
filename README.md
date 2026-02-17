@@ -430,9 +430,7 @@ comparing both output, when looking at the signal without the bandwidth limiter,
   - https://codes.pratikkataria.com/communication-system/
     
 ### Experiment 14
-  - https://www.egr.msu.edu/classes/ece458/radha/ss07Keyur/Lab-Handouts/Lab9PCM.pdf
-  - https://ecedunia.blogspot.com/2016/03/pulse-code-modulation.html
-  - https://codes.pratikkataria.com/communication-system/
+  - fg
 
 ### Experiment 15
 
