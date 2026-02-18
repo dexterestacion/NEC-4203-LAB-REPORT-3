@@ -1091,15 +1091,6 @@ A matching stub is a short, length-adjustable section of transmission line (such
 </details>
 
 # Reference
-  
-### Experiment 9
-  
-  - https://blog.truegeometry.com/api/exploreHTML/42c699040c9d7b230a38fff56c680c96.exploreHTML
-  - https://electronicscoach.com/frequency-modulation.html
-  
-### Experiment 10
-  - https://user.eng.umd.edu/~tretter/commlab/c6713slides/ch8.pdf
-  - https://ae-iitr.vlabs.ac.in/exp/voltage-comparator/theory.html
     
 ### Experiment 11
   - https://uomus.edu.iq/img/lectures21/MUCLecture_2025_225463.pdf
@@ -1115,22 +1106,35 @@ A matching stub is a short, length-adjustable section of transmission line (such
   - https://codes.pratikkataria.com/communication-system/
 
  ### Experiment 14
+  - https://fcc.report/FCC-ID/RXUSP6102/867811.pdf
  
  ### Experiment 15
- 
+  - https://www.geeksforgeeks.org/electronics-engineering/amplitude-shift-keying/
+  - https://www.tutorialspoint.com/digital_communication/digital_communication_amplitude_shift_keying.htm
+    
  ### Experiment 16
- 
+  - https://wraycastle.com/blogs/knowledge-base/frequency-shift-keying
+  - https://www.yumpu.com/en/document/view/31074120/experiment-16-a-bandwidth-limiting-and-restoring-digital-signals
+    
  ### Experiment 17
- 
+  - https://www.geeksforgeeks.org/electronics-engineering/bpsk-binary-phase-shift-keying/
+  - https://www.warse.org/IJETER/static/pdf/file/ijeter08822020.pdf
+  - https://www.eng.auburn.edu/~troppel/courses/TIMS-manuals-r5/TIMS%20Experiment%20Manuals/Student_Text/Vol-D1/D1-07.pdf
+    
  ### Experiment 18
- 
+  - https://www.tutorialspoint.com/digital_communication/digital_communication_quadrature_phase_shift_keying.htm
+  - https://www.sciencedirect.com/topics/engineering/quadrature-phase-shift-keying
+    
  ### Experiment 19
  - https://webstor.srmist.edu.in/web_assets/srm_mainsite/files/files/lab_experiment.pdf
-
+   
  ### Experiment 20
-
+- https://www.sciencedirect.com/topics/engineering/software-defined-radio
+  
 ### Antennas
  - https://www.techtarget.com/searchmobilecomputing/definition/antenna
  - https://www.lenovo.com/us/en/glossary/antenna/
+
+### Waveguide
 
   
