@@ -1,3 +1,5 @@
+# Emona Telecoms trainer Vol. 1 continuation of experiments
+
 <details>
 <summary>Experiment 11 - Sampling and reconstruction</summary>
 
@@ -843,8 +845,21 @@ A DSBSC signal is generated using an Audio Oscillator (message) and another osci
 
 </details>
 
+
+# Additional experiments
+
 <details>
-<summary>Reference</summary>
+<summary> Antennas </summary>
+	
+</details>
+
+
+<details>
+<summary> Waveguide </summary>
+	
+</details>
+
+# Reference
   
 ### Experiment 9
   
@@ -880,10 +895,7 @@ A DSBSC signal is generated using an Audio Oscillator (message) and another osci
  
  ### Experiment 19
  - https://webstor.srmist.edu.in/web_assets/srm_mainsite/files/files/lab_experiment.pdf
-   
- 
+
  ### Experiment 20
- 
 
   
-</details>
