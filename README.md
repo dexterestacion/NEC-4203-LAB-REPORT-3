@@ -408,19 +408,23 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Generator%20BD.JPG" />
 </div>
 
+for Amplitude Shift Keying generation, we'll need  a Dual analog switch, the Master signal will serve as the input for the analog switch, and  the sequence generatr will serve as the digtal data. the ASK will be generated based on the switching of the sequence generator, where the master signals acts as the carrier. if the voltage of the sequence generator switch to positive(1), the master signal will flow to the output signal of the dual analog switch, and if the digital signal siwtch to negative(0), no signal will be not flow to the output of the analog switch, generating the ASK signal. 
+
 - Envelope detector(Demodulator)
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Envelope%20detector%20BD.JPG" />
 </div>
 
+for this setup, we'll deodulate the signal using an envelope detector, it has the same setuo with AM demodulation, but for digital modulation. the input is modified with a 100kHz master signal. It does this by extracting the envelope of the amplitude-modulated signal which  corresponds to the digital "1"s and "0"s.
+
 - Digital data reconstruction
+
+ for this setup, this will reconstruct the generated ASK signal into its orignal data, it uses a comparator to convert the analog envelope into clean digital pulses. The comparator compares the voltage signal of the envelope detector, reconstructing the original digital data.
   
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2015/ASK%20Digital%20signal%20recovery%20BD.JPG" />
 </div>
-
-
 
 ### Setup
 
@@ -476,7 +480,13 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Objectives
 
+- Understand the principle of Frequency Shift Keying modulation
+
+- Implement an FSK modulator circuit
+
 ### Introduction
+
+Frequency Shift Keying (FSK) works by changing the carrier frequency based on digital data. Logic 1 is represented by one frequency (mark frequency), while logic 0 is represented by another frequency (space frequency). The amplitude remains constant throughout, making FSK more noise-resistant than ASK.
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2016/FSK%20Demo.JPG" />
@@ -489,12 +499,16 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Generation%20BD.JPG" />
 </div>
+
+A voltage-controlled oscillator (VCO) produces two frequencies controlled by the digital input. HIGH input generates a higher frequency; LOW input generates a lower frequency, producing a continuous waveform that changes frequency with the data.
   
 - Digital signal reconstruction
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Restoration%20BD.JPG" />
 </div>
+
+
 
 ### Setup
 
@@ -529,15 +543,23 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <details>
 <summary> Experiment 17 - Binary phase shift keying(BPSK) </summary>
 
+
+
 ### Objectives
 
+- Understand the principle of Binary Phase Shift Keying modulation
+
+- Implement a BPSK modulator circuit
+
+- Observe how binary data is represented by phase changes in the carrier
 
 ### Introduction
+
+Binary Phase Shift Keying (BPSK) works by shifting the carrier phase by 180 degrees according to digital data. Logic 1 is transmitted with 0° phase, while logic 0 is transmitted with 180° phase. The amplitude and frequency remain constant, with information carried entirely in phase changes.
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Additional%20data/Experiment%2017/BPSK%20Demo.JPG" />
 </div>
-
 
 ### Block diagram
 
@@ -547,17 +569,24 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Generation%20BD.JPG" />
 </div>
 
+The block diagram illustrates how phase reversals encode digital information using the EMONA modules. Master signals  generates a constant carrier sine wave at a fixed frequency. This carrier is fed into one input of a Balanced Modulator or Multiplier module. The  Sequence Generator module produces the binary message signal, but unlike in ASK, this digital signal must be converted to a bipolar format where logic 1 becomes a positive voltage and logic 0 becomes a negative voltage of equal magnitude. This is typically achieved using a Level Converter or by using the digital signal to control an analog switch that selects between +V and -V references. This bipolar digital signal is applied to the second input of the Balanced Modulator. The multiplier performs analog multiplication: when the digital signal is positive, the carrier passes through with its original phase (0° reference); when the digital signal is negative, the multiplication effectively inverts the carrier, producing a 180° phase shift.
+
+
 - BPSK Demodulation
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Demodulation%20BD.JPG" />
 </div>
 
+The incoming BPSK signal is multiplied by a synchronized local carrier in a Product Detector module. This multiplication produces a baseband signal representing the original data plus high-frequency components. A Tunable Low-Pass Filter removes the high-frequency content, leaving a bipolar analog waveform that swings positive and negative corresponding to the original data.
+
 - Digital message reconstruction
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2017/BPSK%20Digital%20message%20restoration.JPG" />
 </div>
+
+The bipolar baseband signal from the filter is fed into a Comparator with its threshold set to zero volts. When the signal is positive, the comparator outputs logic 1 when negative, logic 0. This reconstructs the original digital data, though phase ambiguity may occur if the local carrier is 180° out of phase.
 
 
 
@@ -611,9 +640,15 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Objectives
 
+- Understand the principle of Quadrature Phase Shift Keying modulation
+
+- Learn how to separate digital data into even and odd bit streams using serial-to-parallel conversion
+
+- Implement a QPSK modulator using quadrature carriers
+
 ### Introduction
 
-
+Quadrature Phase Shift Keying (QPSK) works by transmitting two bits per symbol using four phase states. The incoming serial data is split into even and odd bit streams. Even bits modulate an in-phase carrier (cos), while odd bits modulate a quadrature carrier (sin) that is 90° shifted.
 
 ### Block diagram
 
@@ -623,11 +658,15 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20signal%20recovery%20BD.JPG" />
 </div>
 
+A Serial-to-Parallel Converter splits the incoming high-speed serial data into two parallel streams: even bits go to the in-phase (I) channel and odd bits go to the quadrature (Q) channel. Both streams pass through level converters that transform standard logic levels into bipolar signals (+V for 1, -V for 0) required for modulation. Each stream now runs at half the original bit rate.
+
 - QPSK Generation
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20BD.JPG" />
 </div>
+
+A master carrier from an Audio Oscillator is split into two paths. One path goes directly to a Balanced Modulator for the I channel (cos carrier). The second path passes through a 90° Phase Shifter to a second modulator for the Q channel (sin carrier). The I data modulates the cos carrier, the Q data modulates the sin carrier, and an Adder combines both outputs. 
   
 - Digital data recovery
 
@@ -635,6 +674,7 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20Even%20or%20odd%20bits%20BD.JPG" />
 </div>
 
+The incoming QPSK signal is split and fed to two Product Detectors. One detector uses a recovered in-phase carrier (cos) to recover the I data, while the other uses a quadrature carrier (sin) to recover the Q data. Low-pass filters remove high-frequency components, and Comparators regenerate clean I and Q digital streams.
 
 ### Setup
 
@@ -682,11 +722,15 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <details>
 <summary> Experiment 19 - DSSS Modulation and Demodulation </summary>
 
+- To understand the principle of Direct Sequence Spread Spectrum modulation
+
+- To implement a DSSS modulator using a PN sequence generator on the EMONA trainer
+
 ### Objectives
 
 ### Introduction
 
-
+Direct Sequence Spread Spectrum (DSSS) works by multiplying digital data with a high-rate pseudo-random noise (PN) sequence. This spreads the signal energy over a much wider bandwidth, making it appear noise-like. The receiver uses an identical synchronized PN sequence to despread the signal, recovering the original data while suppressing interference and jamming. The processing gain, determined by the ratio of spreading bandwidth to data bandwidth, provides resistance to narrowband interferers.
 
 ### Block diagram
 
@@ -696,11 +740,15 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20Product%20detector%20BD.JPG" />
 </div>
 
+A Digital Sequence Generator provides low-rate data to a Multiplier, while a Pseudo-Random Noise (PN) Sequence Generator provides a high-rate chipping sequence to the multiplier's other input. This multiplication spreads the signal over a wide bandwidth. The spread signal modulates a carrier using another multiplier. At the receiver, the same synchronized PN sequence multiplies the incoming signal to despread it, collapsing it back to narrowband while spreading any interference. A product detector and filter recover the original data.
+
 - DSSS with channel signal jammer
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20demodulator%20with%20jamming%20signal%20BD.JPG" />
 </div>
+
+This extends the basic system by adding a jamming signal generator (Audio Oscillator or VCO) that feeds into an Adder along with the transmitted DSSS signal. The adder combines both signals to simulate a noisy channel. At the receiver, despreading spreads the jammer's energy over a wide bandwidth while despreading the desired signal. Subsequent low-pass filtering removes most of the jammer energy, demonstrating DSSS interference rejection. The processing gain determines how much rejection is achieved.
 
 ### Setup
 
@@ -758,15 +806,21 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Objectives
 
+- To understand the basic concepts of Software Defined Radio
+
+- To learn about undersampling and its application in SDR receivers
+
 ### Introduction
 
-
+Software Defined Radio (SDR) works by moving analog-to-digital conversion as close to the antenna as possible and performing signal processing in software. This experiment demonstrates undersampling, where sampling below the Nyquist rate causes controlled aliasing that folds modulated signals down to baseband. This technique replaces traditional mixing stages with digital processing, illustrating how the same hardware can handle different modulation types by simply changing the software.
 
 ### Block diagram
 
 <div align="center">
 <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2020/Undersampling%20DSBSC%20Signal%20%20BD.JPG" />
 </div>
+
+A DSBSC signal is generated using an Audio Oscillator (message) and another oscillator (carrier) feeding a Balanced Modulator. This DSBSC signal is connected to a Sampler module controlled by a sampling pulse train. The sampling frequency is deliberately set below the Nyquist rate for the carrier, causing undersampling that folds the modulated signal down to baseband through aliasing. A Tunable Low-Pass Filter then selects the baseband component, effectively demodulating the signal without traditional mixers. Replacing the fixed sampling signal with a VCO makes the system tunable, demonstrating the SDR principle of moving digitization close to the antenna and performing frequency conversion through digital techniques.
 
 ### Setup
 
