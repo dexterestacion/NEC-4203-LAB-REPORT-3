@@ -493,7 +493,7 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 - Digital signal reconstruction
 
 <div align="center">
-<img width="500" height="500" alt="image" src=" https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Restoration%20BD.JPG " />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2016/FSK%20Restoration%20BD.JPG" />
 </div>
 
 ### Setup
@@ -515,7 +515,7 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 - FSK Generator
 
 <div align="center">
-<img width="500" height="500" alt="image" src=" https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Output.jpg " />
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2016/FSK%20Output.jpg" />
 </div>
 
 - Digital signal reconstruction
@@ -617,34 +617,65 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Block diagram
 
-- PSK Generator
+- QPSK Even or odd bits(input signal) setup
+  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20signal%20recovery%20BD.JPG" />
+</div>
 
-  
-- PSK Demodulator
+- QPSK Generation
 
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20BD.JPG" />
+</div>
   
-- Digital signal reconstruction
-  
+- Digital data recovery
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2018/QPSK%20Even%20or%20odd%20bits%20BD.JPG" />
+</div>
+
 
 ### Setup
 
-- PSK Generator
+- QPSK Even or odd bits(input signal) setup
+
+<div align="center">
+<img width="500" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/Digital%20data%20input%20setup.JPG" />
+</div>
+
+- QPSK Generation
+
+<div align="center">
+<img width="1000" height="1500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/QPSK%20Setup.JPG" />
+</div>
 
   
-- PSK Demodulator
+- Digital data recovery
 
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2018/QPSK%20signal%20demodulation%20setup.JPG" />
+</div>
   
-- Digital signal reconstruction
-
 ### Output
 
-- PSK Generator
+- QPSK Even or odd bits(input signal) setup
 
-  
-- PSK Demodulator
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/digital%20data%20output.JPG" />
+</div>
 
-  
-- Digital signal reconstruction
+- QPSK Generation
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/QPSK%20Output.JPG" />
+</div>
+
+- Digital data recovery
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2018/QPSK%20X1%20Reconstruction.JPG" />
+</div>
 
 </details>
 
@@ -659,37 +690,67 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Block diagram
 
-- PSK Generator
+- DSSS Modulator and demodulator
 
-  
-- PSK Demodulator
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20Product%20detector%20BD.JPG" />
+</div>
 
-  
-- Digital signal reconstruction
-  
+- DSSS with channel signal jammer
+
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2019/DSSS%20Modulator%20and%20demodulator%20with%20jamming%20signal%20BD.JPG" />
+</div>
 
 ### Setup
 
-- PSK Generator
+- DSSS Modulator and demodulator
 
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2019/DSSS%20Modulation%20and%20demodulation(product%20detector)%20setup.JPG" />
+</div>
   
-- PSK Demodulator
+- DSSS with channel signal jammer
 
-  
-- Digital signal reconstruction
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2019/DSSS%20Modulation%20and%20demodulation%20with%20signal%20jamming%20setup.JPG" />
+</div>
 
 ### Output
 
-- PSK Generator
+- DSSS Modulator and demodulator
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/DSSS%20Modulation%20and%20demodulation%20output%20comparison.JPG" />
+</div>
 
   
-- PSK Demodulator
+- DSSS with channel signal jammer
 
-  
-- Digital signal reconstruction
+ If Adder gain for signal jammer is low under low frequency
 
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/Low%20adder%20gain%20Signal%20jammer%20VCO%20at%20low%20frequency.JPG" />
+</div>
 
-  
+ If adder gain for signal jammer is low under high frequency
+
+ <div align="center">
+ <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/Low%20adder%20gain%20Signal%20jammer%20VCO%20at%20high%20frequency.JPG" />
+ </div>
+
+  If Adder gain for signal jammer is high under low frequency
+
+  <div align="center">
+  <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/High%20adder%20gain%20Signal%20jammer%20VCO%20at%20low%20frequency.JPG" />
+  </div>
+
+  If Adder gain for signal jammer is high under high frequency
+
+  <div align="center">
+  <img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2019/High%20adder%20gain%20Signal%20jammer%20VCO%20at%20high%20frequency.JPG" />
+  </div>
+
 </details>
 
 <details>
@@ -703,35 +764,29 @@ A Amplitude Shift Keying (ASK) is a type of digital modulation technique in whic
 
 ### Block diagram
 
-- PSK Generator
-
-  
-- PSK Demodulator
-
-  
-- Digital signal reconstruction
-  
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Block%20diagrams/Experiment%2020/Undersampling%20DSBSC%20Signal%20%20BD.JPG" />
+</div>
 
 ### Setup
 
-- PSK Generator
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2020/DSBSC%20Modulation%20and%20demodulation%20setup.JPG" />
+</div>
 
   
-- PSK Demodulator
+- Replace samplig signal with VCO
 
-  
-- Digital signal reconstruction
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Setup/Experiment%2020/DSBSC%20sampling%20modification%20setup.JPG" />
+</div>
 
 ### Output
 
-- PSK Generator
+<div align="center">
+<img width="500" height="500" alt="image" src="https://raw.githubusercontent.com/dexterestacion/NEC-4203-LAB-REPORT-3/refs/heads/main/Output/Experiment%2020/DSBSC%20demodulation%20output.JPG" />
+</div>
 
-  
-- PSK Demodulator
-
-  
-- Digital signal reconstruction
-  
 </details>
 
 <details>
